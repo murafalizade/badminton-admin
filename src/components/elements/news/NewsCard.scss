@@ -1,0 +1,71 @@
+.news-edit-card{
+    padding: 0;
+    margin: 50px 20px;
+    background-color: white;
+    
+    .admin-card-footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    border-radius: 5px;
+    display: flex;
+    
+    img{
+        height: 200px;
+        margin: 25px;
+        width: 300px;
+    }
+    
+    .delete-icon{
+        color: #7E6CF1;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //padding: 10px;
+        font-weight: 700;
+        text-align: center;
+        margin: 20px;
+        cursor: pointer;
+        background-color: #ECE8FD;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    
+    div{
+        padding: 25px;
+        p,h5{
+            font-family: 'Regular';
+            text-align: justify;
+        }
+        p{
+            display: -webkit-box;
+            white-space: break-spaces;
+            visibility: visible;
+            -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
+            -ms-box-orient: vertical;
+            box-orient: vertical;
+            -webkit-line-clamp: 5;
+            -moz-line-clamp: 5;
+            -ms-line-clamp: 5;
+            line-clamp: 5;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+            max-height: 170px;
+        }
+        h5{
+            color: #2B2B2B;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        span{
+            color: #A4A4A4;
+        }
+    }
+}

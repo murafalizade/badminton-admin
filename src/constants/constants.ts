@@ -1,0 +1,1 @@
+export const BASE_URL = "http://badminton-client.herokuapp.com/v1"

@@ -1,0 +1,21 @@
+.galery{
+    .slick-slider{
+        width: 260px !important;
+        height: 190px !important;
+    }
+    .icon-list{
+        margin-right: 15px!important;
+    }
+    .slider-upload{
+        margin-right: 40px;
+    }
+    .add-file{
+        display: flex;
+        width: 25px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}

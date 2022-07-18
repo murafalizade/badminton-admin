@@ -1,0 +1,24 @@
+.dashboard{
+    background-color: #F7F5FF;
+}
+.dashboard-body{
+    margin-left: 300px;
+    background-color: #F7F5FF;
+    height: 100%;
+
+    .dashboard-button{
+        display: flex;
+        justify-content: end;
+        padding: 10px 20px;
+        
+        .btn{
+            color: #7E6CF1;
+            border: 1px solid #7E6CF1;
+            background-color: white;
+            font-family: 'Regular';
+            border-radius: 8px;
+            font-weight: 600;
+        }
+    }
+
+}
